@@ -29,5 +29,7 @@ Red         RL (Right Leg)
 Software setup:
 
 A. Write the Arduino codes (.ino) in Arduino IDE and upload the codes to the Arduino Mega ADK (any arduino).
+
 B. Write the matlab codes0 (M-File) in matlab software and Run the M-File by clicking Debug and run.
+
 C. In order to exit the session, close the plotting graph.
