@@ -1,9 +1,10 @@
+%Modified from codes found at BIO. AND MED. ENGG, UTM
 %ECG real time plotter
 %Please close the graph to exit the session
 clear
 clc
 %User Defined Properties
-serialPort = 'COM21'; % please change the port to your arduino port as in Arduino IDE
+serialPort = 'COM1'; % please change the port to your arduino port as in Arduino IDE
 plotTitle = 'Real Time ECG'; % plot title
 xLabel = 'Elapsed Time (s)'; % x-axis label
 yLabel = 'Data'; % y-axis label
