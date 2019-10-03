@@ -12,19 +12,13 @@ f) ECG electrodes
 Implementation:
 
 Hardware setup:
-A. Connect the AD8232 Heart rate sensor module to the Arduino Uno with the following pin connections:
+A. Connect the AD8232 Heart rate sensor module to the Arduino Mega ADK with the following pin connections:
 
-AD8232    Arduino Mega ADK (any arduino)
-3.3V             3.3V
-Gnd              Gnd
-Output           A0
-
+AD8232 (3.3V,Gnd,Output) pins with Arduino Mega ADK (3.3V, Gnd, A0) pin resperctively.       
+          
 B. Connect the ECG cable with the following connection:
 
-Cable Color     Signal
-Black       RA (Right Arm)
-Blue        LA (Left Arm)
-Red         RL (Right Leg)
+ECG Cable Color (Black, Blue, Red) with Right Arm,Left Arm, Right Leg. 
 
 Software setup:
 
